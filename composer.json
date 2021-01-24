@@ -1,16 +1,7 @@
-"repositories": [
 {
-    "type": "package",
-    "package": {
-        "name": "test-package-name", //give package name to anything, must be unique
-        "version": "1.0",
-        "source": {
-            "url": "https://github.com/ajashworld/test.git", //git url
-            "type": "git",
-            "reference": "master" //git branch-name
-        }
+    "name": "ajashworld/test",
+    "description": "A short description of what your package does",
+    "require": {
+        "php": ">=7.4"
     }
-}],
-"require" : {
-  "test-package-name": "1.0"
 }
